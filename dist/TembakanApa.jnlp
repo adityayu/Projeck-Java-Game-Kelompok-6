@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="TembakanApa.jnlp">
+  <information>
+    <title>TembakanApa</title>
+    <vendor>NITRO 5</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="TembakanApa.jar" size="1130058" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="tembakanapa.TembakanApa"  name="TembakanApa" />
+  <update check="always"/>
+</jnlp>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="464.0" prefWidth="482.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tembakanapa.SelesaiController">
+   <children>
+      <ImageView fitHeight="464.0" fitWidth="491.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/bggame.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="198.0" fitWidth="342.0" layoutX="70.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/overr.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="restBtn" fitHeight="44.0" fitWidth="161.0" layoutX="97.0" layoutY="260.0" onMouseClicked="#restartGame" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/restart.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pulangBtn" fitHeight="53.0" fitWidth="119.0" layoutX="263.0" layoutY="256.0" onMouseClicked="#quitGame" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/quitt.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="point" alignment="CENTER" layoutX="184.0" layoutY="219.0" prefHeight="26.0" prefWidth="113.0" style="-fx-background-color: brown; -fx-background-radius: 200;" text="Your Score : 0" textFill="WHITE" />
+   </children>
+</AnchorPane>
